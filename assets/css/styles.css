@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    /* mặc định trình duyệt 16px để set cho font-size là 10px thì có công thức sau: 
+     10 / 16 = 0.625 | 0.625 * 100 = 62.5% (62.5% tương đương là 10px)
+     */
+    font-size: 62.5%;
+}
+
+body {
+    /* lúc này 1rem = 10px (vì ảnh hưởng bởi font-size ở trên) 
+     Nên để có 16px khi đổi qua rem thì lấy công thức 16 / 10 = 1.6 (1.6rem = 16px)
+    */
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Sora", sans-serif;
+}
+
+/* Common - Các thành phần dùng chung */
+input, textarea, select, button {
+    font-size: inherit;
+    font-family: inherit;
+}
