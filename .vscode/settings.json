@@ -1,4 +1,7 @@
 {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.fontLigatures": false,
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.5
 }
