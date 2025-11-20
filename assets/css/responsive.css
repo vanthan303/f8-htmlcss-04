@@ -1,0 +1,17 @@
+/* Breakpoint PC */
+@media screen and (min-width: 992px) {
+}
+
+/* Breakpoint Tablet & mobile */
+/* Breakpoint này dùng để viết các thuộc tính giống nhau dành cho cả table & mobile sẽ được viết ở đây
+ Tránh viết lặp lại nhiều lần */
+@media screen and (max-width: 991px) {
+}
+
+/* Breakpoint Tablet */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Breakpoint Mobile */
+@media screen and (max-width: 767px) {
+}
